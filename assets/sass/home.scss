@@ -1,0 +1,22 @@
+@import 'includes.scss';
+@include nav(white, 1%, black, #EAE8FF);
+
+h1 {
+    font-family: $titleFonts;
+}
+
+#homePage{
+    width: 100%;
+    @extend %marginReset;
+    #bg{
+        height: 100% - $navHeight;
+        width: 100%;
+    }
+    #text{
+        position: absolute;
+        margin: 0 $navHeight/3;
+    }
+}
+li {
+    margin-top: $navHeight / 5;
+}

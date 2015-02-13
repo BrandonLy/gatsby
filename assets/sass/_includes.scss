@@ -1,0 +1,57 @@
+$titleFonts: "Abril Fatface", serif;
+$bodyFonts: "Cutive Mono", monospace, sans-serif;
+$secondary-color: #deddda;
+$navHeight: 15%;
+%marginReset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@mixin roundEdges($degrees) {
+    border-bottom-left-radius: $degrees;
+    border-bottom-right-radius: $degrees;
+    border-top-left-radius: $degrees;
+    border-top-right-radius: $degrees;
+    padding: .5em;
+}
+
+@mixin nav($color,
+$margin,
+$text,
+$hover) {
+    #wrapper {
+        margin: 0 $margin;
+        height: $navHeight;
+        text-align: center;
+        background: $color;
+        color: $text;
+            li {
+                display: inline-block;
+                list-style-type: none;
+                a {
+                    padding: 1em;
+                    text-decoration: none;
+                    color: $text;
+                    &:hover, &:focus{
+                        color: $hover;
+                        transition: 500ms;
+                    }
+                }
+            }
+        }
+}
+
+h2, h3 {
+    font-family: $titleFonts;
+    text-decoration: underline;
+}
+
+h4{
+    font-family: $titleFonts;
+}
+
+body {
+    font-family: $bodyFonts;
+    @extend %marginReset;
+}

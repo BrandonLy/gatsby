@@ -1,0 +1,51 @@
+@import 'includes.scss';
+@include nav(#91919E, 0%, white, #ABAABA);
+
+.even{
+    background:white;
+    padding: 2%;
+}
+.odd{
+    background:$secondary-color;
+    padding: 2%;
+}
+#wrapper{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    li {
+    margin-top: $navHeight / 5;
+}
+
+}
+#contentTitle{
+    h2{
+        padding-bottom: 1em;
+    }
+    margin-top: $navHeight / 1.2;
+    height: $navHeight * 1.5;
+    text-align: center;
+}
+
+#video{
+    text-align: center;
+    video{
+    width: 50%;
+    height: 60%;
+    min-width: 640px;
+    margin-top: $navHeight / 1.1;
+    background: black;
+    }
+}
+
+.even, .odd{
+    p{
+        text-align: justify;
+    }
+}
+
+#contentTitle{
+    h3{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+h2, h3 {
+  font-family: "Abril Fatface", serif;
+  text-decoration: underline; }
+
+h4 {
+  font-family: "Abril Fatface", serif; }
+
+body {
+  font-family: "Cutive Mono", monospace, sans-serif; }
+
+#wrapper {
+  margin: 0 0%;
+  height: 15%;
+  text-align: center;
+  background: #91919E;
+  color: white; }
+  #wrapper li {
+    display: inline-block;
+    list-style-type: none; }
+    #wrapper li a {
+      padding: 1em;
+      text-decoration: none;
+      color: white; }
+      #wrapper li a:hover, #wrapper li a:focus {
+        color: #ABAABA;
+        transition: 500ms; }
+
+.even {
+  background: white;
+  padding: 2%; }
+
+.odd {
+  background: #deddda;
+  padding: 2%; }
+
+#wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  #wrapper li {
+    margin-top: 3%; }
+
+#contentTitle {
+  margin-top: 12.5%;
+  height: 22.5%;
+  text-align: center; }
+  #contentTitle h2 {
+    padding-bottom: 1em; }
+
+#video {
+  text-align: center; }
+  #video video {
+    width: 50%;
+    height: 60%;
+    min-width: 640px;
+    margin-top: 13.63636%;
+    background: black; }
+
+.even p, .odd p {
+  text-align: justify; }
+
+#contentTitle h3 {
+  text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */
