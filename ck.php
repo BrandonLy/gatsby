@@ -13,43 +13,14 @@
 
     <?php include('inc/ck/ck-c4.php'); ?>
 
-    <div class="odd">
-        <h2>Chapter 5</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-    </div>
+    <?php include('inc/ck/ck-c5.php'); ?>
 
-    <div class="even">
-        <h2>Chapter 6</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-    </div>
-    <div class="odd">
-        <h2>Chapter 7</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-    </div>
+    <?php include('inc/ck/ck-c6.php'); ?>
 
-    <div class="even">
-        <h2>Chapter 8</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-    </div>
+    <?php include('inc/ck/ck-c7.php'); ?>
 
-    <div class="odd">
-        <h2>Chapter 9</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero necessitatibus hic ipsam quo, corporis amet optio labore, facere quas autem eos illum sapiente magnam iure quae ex consectetur. Corrupti, architecto.</p>
-    </div>
-</div>
+    <?php include('inc/ck/ck-c8.php'); ?>
+
+    <?php include('inc/ck/ck-c9.php'); ?>
+
 <?php include( 'inc/footer.php') ?>

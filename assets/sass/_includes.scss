@@ -1,5 +1,8 @@
-$titleFonts: "Abril Fatface", serif;
-$bodyFonts: "Cutive Mono", monospace, sans-serif;
+$titleFonts: "Abril Fatface",
+serif;
+$bodyFonts: "Cutive Mono",
+monospace,
+sans-serif;
 $secondary-color: #deddda;
 $navHeight: 15%;
 %marginReset {
@@ -26,28 +29,33 @@ $hover) {
         text-align: center;
         background: $color;
         color: $text;
-            li {
-                display: inline-block;
-                list-style-type: none;
-                a {
-                    padding: 1em;
-                    text-decoration: none;
-                    color: $text;
-                    &:hover, &:focus{
-                        color: $hover;
-                        transition: 500ms;
-                    }
+        li {
+            display: inline-block;
+            list-style-type: none;
+            a {
+                padding: 1em;
+                text-decoration: none;
+                color: $text;
+                &:hover, &:focus {
+                    color: $hover;
+                    transition: 500ms;
                 }
             }
         }
+    }
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: $titleFonts;
     text-decoration: underline;
 }
 
-h4{
+h1 {
+    font-family: $titleFonts;
+}
+
+h4 {
     font-family: $titleFonts;
 }
 

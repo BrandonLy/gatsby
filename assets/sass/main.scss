@@ -1,25 +1,29 @@
 @import 'includes.scss';
-@include nav(#91919E, 0%, white, #ABAABA);
+@include nav(#91919E,
+0%,
+white,
+#ABAABA);
+.even {
+    background: white;
+    padding: 2%;
+}
 
-.even{
-    background:white;
+.odd {
+    background: $secondary-color;
     padding: 2%;
 }
-.odd{
-    background:$secondary-color;
-    padding: 2%;
-}
-#wrapper{
+
+#wrapper {
     position: fixed;
     top: 0;
     width: 100%;
     li {
-    margin-top: $navHeight / 5;
+        margin-top: $navHeight / 5;
+    }
 }
 
-}
-#contentTitle{
-    h2{
+#contentTitle {
+    h2 {
         padding-bottom: 1em;
     }
     margin-top: $navHeight / 1.2;
@@ -27,25 +31,65 @@
     text-align: center;
 }
 
-#video{
+#video {
     text-align: center;
-    video{
-    width: 50%;
-    height: 60%;
-    min-width: 640px;
-    margin-top: $navHeight / 1.1;
-    background: black;
+    video {
+        width: 50%;
+        height: 60%;
+        min-width: 640px;
+        margin-top: $navHeight / 1.1;
+        background: black;
     }
 }
 
-.even, .odd{
-    p{
+.even,
+.odd {
+    p {
         text-align: justify;
     }
 }
 
-#contentTitle{
-    h3{
+#contentTitle {
+    h3 {
         text-decoration: none;
     }
 }
+
+.accordion-title {
+    cursor: pointer;
+    border-bottom: black solid 1px;
+}
+
+p.left{
+    text-align: left;
+}
+
+#overlay{
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+    p{
+        margin: 2%;
+    }
+    img {
+        padding-top: $navHeight / 1.5;
+    }
+}
+
+#gallery {
+    width: 100%;
+    list-style: none;
+    li{
+        display: inline-block;
+        width: 15%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+

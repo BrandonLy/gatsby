@@ -3,9 +3,13 @@ body, #homePage {
   padding: 0;
   border: 0; }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Abril Fatface", serif;
   text-decoration: underline; }
+
+h1 {
+  font-family: "Abril Fatface", serif; }
 
 h4 {
   font-family: "Abril Fatface", serif; }

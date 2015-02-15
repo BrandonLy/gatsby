@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta charset="utf-8"/>
     <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Abril+Fatface' rel='stylesheet' type='text/css'>
     <link rel="icon" href="favicon.ico">
     <?php if($pageTitle=='The Great Gatsby' ) {echo '<link type="text/css" rel="stylesheet" href="assets/css/home.css" />';} else {echo '<link type="text/css" rel="stylesheet" href="assets/css/main.css"/>';}?>

@@ -3,9 +3,13 @@ body {
   padding: 0;
   border: 0; }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Abril Fatface", serif;
   text-decoration: underline; }
+
+h1 {
+  font-family: "Abril Fatface", serif; }
 
 h4 {
   font-family: "Abril Fatface", serif; }
@@ -61,10 +65,41 @@ body {
     margin-top: 13.63636%;
     background: black; }
 
-.even p, .odd p {
+.even p,
+.odd p {
   text-align: justify; }
 
 #contentTitle h3 {
   text-decoration: none; }
+
+.accordion-title {
+  cursor: pointer;
+  border-bottom: black solid 1px; }
+
+p.left {
+  text-align: left; }
+
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center; }
+  #overlay p {
+    margin: 2%; }
+  #overlay img {
+    padding-top: 10%; }
+
+#gallery {
+  width: 100%;
+  list-style: none; }
+  #gallery li {
+    display: inline-block;
+    width: 15%; }
+    #gallery li img {
+      max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
