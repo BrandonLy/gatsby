@@ -45,3 +45,17 @@ $("#gallery a").click(function (event) {
 $overlay.click(function () {
     $(this).hide();
 });
+
+var $phoneMenu = $("#mobileNav");
+$phoneMenu.hide();
+var $navOverlay = $("#navOverlay");
+$navOverlay.hide();
+$("#mobileMenu span").click(function () {
+    $phoneMenu.toggle("fast");
+    $navOverlay.toggle();
+});
+
+$navOverlay.click(function () {
+    $phoneMenu.toggle("fast");
+    $navOverlay.toggle();
+});

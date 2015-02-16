@@ -8,7 +8,7 @@ h1 {
 #homePage{
     width: 100%;
     @extend %marginReset;
-    #bg{
+    #desktop{
         height: 100% - $navHeight;
         width: 100%;
     }
@@ -19,4 +19,12 @@ h1 {
 }
 li {
     margin-top: $navHeight / 5;
+}
+
+#phone {
+    display: none;
+}
+
+#mobileMenu, #mobileNav{
+    display: none;
 }

@@ -39,7 +39,7 @@ h1 {
 
 #homePage {
   width: 100%; }
-  #homePage #bg {
+  #homePage #desktop {
     height: 85%;
     width: 100%; }
   #homePage #text {
@@ -48,5 +48,11 @@ h1 {
 
 li {
   margin-top: 3%; }
+
+#phone {
+  display: none; }
+
+#mobileMenu, #mobileNav {
+  display: none; }
 
 /*# sourceMappingURL=home.css.map */
