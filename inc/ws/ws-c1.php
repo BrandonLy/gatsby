@@ -1,6 +1,7 @@
 <div class="odd">
-    <div class="accordion-title"><h2>Chapter 1</h2><span>Click to Toggle [+]</span></div>
+    <div class="accordion-title"></div>
     <div class="accordion-content">
+        <h2>Writing Skills</h2>
         <h3>Excerpt</h3>
         <p><i>“In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.”</i></p>
         <h3>Analysis</h3>

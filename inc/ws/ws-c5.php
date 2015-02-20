@@ -1,6 +1,7 @@
 <div class="odd">
-    <div class="accordion-title"><h2>Chapter 5</h2><span>Click to Toggle [+]</span></div>
+    <div class="accordion-title"></div>
     <div class="accordion-content">
+        <h2>Writing Skills</h2>
         <h3>Excerpt</h3>
         <p><i>“They had forgotten me, but Daisy glanced up and held out her hand; Gatsby didn’t know me now at all. I looked once more at them and they looked back at me, remotely, possessed by intense life, Then I went out of the room and down the marbles steps into the rain, leaving them there together.” (Gatsby 96). </i></p>
         <h3>Analysis</h3>

@@ -1,6 +1,7 @@
 <div class="even">
-    <div class="accordion-title"><h2>Chapter 4</h2><span>Click to Toggle [+]</span></div>
+    <div class="accordion-title"></div>
     <div class="accordion-content">
+        <h2>Writing Skills</h2>
         <h3>Excerpt</h3>
         <p><i>“A dead man passed us in a hearse heaped with blooms, followed by two carriages with drawn blinds, and by more cheerful carriages for friends. The friends looked at us with the tragic eyes and short upper lips of southeastern Europe and I was glad that the sight of Gatsby's splendid car was included in the their somber holiday. As we crossed Blackwell’s Island a limousine passed us driven by a white chauffeur in which sat three modish negroes, two bucks and a girl. I laughed aloud as the yolks of their eyeballs rolled toward us in haughty rivalry.”</i></p>
         <h3>Analysis</h3>

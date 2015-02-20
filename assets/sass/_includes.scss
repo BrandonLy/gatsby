@@ -1,65 +1,24 @@
-$titleFonts: "Abril Fatface",
-serif;
-$bodyFonts: "Cutive Mono",
-monospace,
-sans-serif;
+$titleFonts: 'freight-display-pro', cursive;
+$subheadings: 'kepler-std-semicondensed-dis';
+$bodyFonts: 'proxima-nova-alt', sans-serif;
 $secondary-color: #deddda;
-$navHeight: 15%;
+$navHeight: 10%;
+$margin: 1%;
+$darkgray: #383838;
+$lightblue: #D0FFF5;
+$arrowSize: 3em;
+
 %marginReset {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-@mixin roundEdges($degrees) {
-    border-bottom-left-radius: $degrees;
-    border-bottom-right-radius: $degrees;
-    border-top-left-radius: $degrees;
-    border-top-right-radius: $degrees;
-    padding: .5em;
-}
-
-@mixin nav($color,
-$margin,
-$text,
-$hover) {
-    #wrapper {
-        margin: 0 $margin;
-        height: $navHeight;
-        text-align: center;
-        background: $color;
-        color: $text;
-        li {
-            display: inline-block;
-            list-style-type: none;
-            a {
-                padding: 1em;
-                text-decoration: none;
-                color: $text;
-                &:hover, &:focus {
-                    color: $hover;
-                    transition: 500ms;
-                }
-            }
-        }
-    }
-}
-
-h2,
-h3 {
-    font-family: $titleFonts;
-    text-decoration: underline;
-}
-
-h1 {
-    font-family: $titleFonts;
-}
-
-h4 {
-    font-family: $titleFonts;
-}
-
-body {
-    font-family: $bodyFonts;
-    @extend %marginReset;
+@mixin squareText {
+    background: white;
+    max-width: 60%;
+    min-width: 800px;
+    margin: 1% auto;
+    padding: 1em;
+    border: 2px solid black;
 }

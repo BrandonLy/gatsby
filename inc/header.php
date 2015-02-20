@@ -2,10 +2,10 @@
 
 <head>
     <meta charset="utf-8"/>
-    <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Abril+Fatface' rel='stylesheet' type='text/css'>
+    <script src="http://use.typekit.net/jdc4qcu.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <link rel="icon" href="favicon.ico">
-    <?php if($pageTitle=='The Great Gatsby' ) {echo '<link type="text/css" rel="stylesheet" media="screen and (min-width: 1001px)" href="assets/css/home.css" />';} else {echo '<link type="text/css" rel="stylesheet" media="screen and (min-width: 1001px)" href="assets/css/main.css"/>';}?>
-    <link type="text/css" rel="stylesheet" media="screen and (max-width: 1000px)" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <title>
         <?php echo $pageTitle; ?>
     </title>
@@ -20,37 +20,10 @@
             <div id="nav">
                 <li><a href="<?php if($pageTitle == 'The Great Gatsby') {echo '#';} else {echo 'index.php';} ?>">Home</a>
                 </li>
-                <li><a href="<?php if($pageTitle == 'Jeopardy Video') {echo '#';} else {echo 'jeopardy.php';} ?>">Jeopardy Video</a>
+                <li><a href="<?php if($pageTitle == 'Jeopardy Video') {echo '#';} else {echo 'jeopardy.php';} ?>">Jeopardy</a>
                 </li>
-                <li><a href="<?php if($pageTitle == 'Content Knowledge') {echo '#';} else {echo 'ck.php';} ?>">Content Knowledge</a>
+                <li><a href="<?php if($pageTitle == 'Chapter 1') {echo '#';} else {echo 'chapter1.php';} ?>">Chapters</a>
                 </li>
-                <li><a href="<?php if($pageTitle == 'Writing Skills') {echo '#';} else {echo 'ws.php';} ?>">Writing Skills</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Use of Resources') {echo '#';} else {echo 'ur.php';} ?>">Use of Resources</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Pro Communication') {echo '#';} else {echo 'pc.php';} ?>">Pro Communication</a>
-                </li>
-            </div>
-        </div>
-
-<!--   Mobile Navigation Menu     -->
-        <div id="mobileMenu">
-           <span>Menu</span>
-            <div id="navOverlay">
-            <div id="mobileNav">
-                <li><a href="<?php if($pageTitle == 'The Great Gatsby') {echo '#';} else {echo 'index.php';} ?>">Home</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Jeopardy Video') {echo '#';} else {echo 'jeopardy.php';} ?>">Jeopardy Video</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Content Knowledge') {echo '#';} else {echo 'ck.php';} ?>">Content Knowledge</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Writing Skills') {echo '#';} else {echo 'ws.php';} ?>">Writing Skills</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Use of Resources') {echo '#';} else {echo 'ur.php';} ?>">Use of Resources</a>
-                </li>
-                <li><a href="<?php if($pageTitle == 'Pro Communication') {echo '#';} else {echo 'pc.php';} ?>">Pro Communication</a>
-                </li>
-            </div>
             </div>
         </div>
     </header>

@@ -1,6 +1,7 @@
 <div class="even">
-    <div class="accordion-title"><h2>Chapter 6</h2><span>Click to Toggle [+]</span></div>
+    <div class="accordion-title"></div>
     <div class="accordion-content">
+        <h2>Writing Skills</h2>
         <h3>Excerpt</h3>
         <p><i>“Tom was evidently perturbed at Daisy's running around alone, for on the following Saturday night he came with her to Gatsby's party. Perhaps his presence gave the evening its peculiar quality of oppressiveness-it stands out in my memory from Gatsby's other parties that summer. There were the same people, or at least the same sort of people, the same profusion of champagne, the same many-colored, many-keyed commotion, but I felt an unpleasantness in the air, a pervading harshness that hadn't been there before. Or perhaps I had merely grown used to it, grown to accept West Egg as a world complete in itself, with its own standards and its own great figures, second to nothing because it had no consciousness of being so, and now I was looking at it again, through Daisy's eyes. It is invariably saddening to look through new eyes at things upon which you have expended your own powers of adjustment.”</i></p>
         <h3>Analysis</h3>

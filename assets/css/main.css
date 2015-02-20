@@ -1,105 +1,103 @@
-body {
+body, #wrapper {
   margin: 0;
   padding: 0;
   border: 0; }
 
-h2,
-h3 {
-  font-family: "Abril Fatface", serif;
-  text-decoration: underline; }
-
-h1 {
-  font-family: "Abril Fatface", serif; }
-
-h4 {
-  font-family: "Abril Fatface", serif; }
+#homePage {
+  background-image: url("../img/bwSkyline2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90%; }
 
 body {
-  font-family: "Cutive Mono", monospace, sans-serif; }
+  font-family: "proxima-nova-alt", sans-serif;
+  background: #D0FFF5; }
+
+h1 {
+  font-family: "freight-display-pro", cursive;
+  margin-left: 5%; }
+
+h2 {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: "kepler-std-semicondensed-dis"; }
+
+h3 {
+  font-family: "kepler-std-semicondensed-dis";
+  text-decoration: underline;
+  font-size: 1.3em; }
+
+h4 {
+  font-family: "kepler-std-semicondensed-dis";
+  font-size: 1.2em; }
 
 #wrapper {
-  margin: 0 0%;
-  height: 15%;
+  margin: 0;
+  height: 10%;
   text-align: center;
-  background: #91919E;
-  color: white; }
+  background: #383838; }
   #wrapper li {
     display: inline-block;
-    list-style-type: none; }
+    list-style-type: none;
+    margin-top: 2%; }
     #wrapper li a {
-      padding: 1em;
+      padding: 0.5em;
       text-decoration: none;
       color: white; }
       #wrapper li a:hover, #wrapper li a:focus {
-        color: #ABAABA;
+        color: gray;
         transition: 500ms; }
 
-.even {
+.odd, .even {
   background: white;
-  padding: 2%; }
+  max-width: 60%;
+  min-width: 800px;
+  margin: 1% auto;
+  padding: 1em;
+  border: 2px solid black; }
+  .odd p, .odd li, .even p, .even li {
+    font-size: 1.1em; }
 
-.odd {
-  background: #deddda;
-  padding: 2%; }
+#drawing {
+  text-align: center;
+  background: white;
+  max-width: 60%;
+  min-width: 800px;
+  margin: 1% auto;
+  padding: 1em;
+  border: 2px solid black; }
 
-#wrapper {
-  position: fixed;
-  top: 0;
-  width: 100%; }
-  #wrapper li {
-    margin-top: 3%; }
-
-#contentTitle {
-  margin-top: 12.5%;
-  height: 22.5%;
+#arrows {
   text-align: center; }
-  #contentTitle h2 {
-    padding-bottom: 1em; }
+  #arrows h2 {
+    display: inline-block;
+    width: 80%; }
+  #arrows a, #arrows a:active {
+    color: black; }
+  #arrows #left-arrow {
+    float: left !important;
+    font-size: 3em; }
+  #arrows #right-arrow {
+    float: right !important;
+    font-size: 3em; }
+
+#clearFix {
+  clear: both; }
 
 #video {
-  text-align: center; }
+  background: purple;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 3.33333%; }
   #video video {
-    width: 50%;
-    height: 60%;
-    min-width: 640px;
-    margin-top: 13.63636%;
-    background: black; }
+    background: black;
+    width: 100%;
+    height: 100%; }
 
-.even p,
-.odd p {
-  text-align: justify; }
-
-#contentTitle h3 {
-  text-decoration: none; }
-
-.accordion-title {
-  cursor: pointer;
-  border-bottom: black solid 1px; }
-
-p.left {
-  text-align: left; }
-
-#overlay {
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  text-align: center; }
-  #overlay p {
-    margin: 2%; }
-  #overlay img {
-    padding-top: 10%; }
-
-#gallery {
-  width: 100%;
-  list-style: none; }
-  #gallery li {
-    display: inline-block;
-    width: 15%; }
-    #gallery li img {
-      max-width: 100%; }
+.copyright {
+  text-align: right;
+  margin-right: 2%; }
 
 /*# sourceMappingURL=main.css.map */
